@@ -1,0 +1,10 @@
+id: DFD_InfiniteExtensionV2
+name: "DFD_InfiniteExtensionV2"
+depends: []
+pluginDepends: 
+- InfinityExpansion
+version: "Release-1.0.0"
+description: "借鉴并重构了原SC无尽V2至RSC"
+authors:
+- msaw4
+repo: "https://github.com/msaw4/DFD-InfiniteExtensionV2"

@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3700
+  type: GOLD_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"虚","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"无","italic":false,"color":"aqua"},{"text":"锭","italic":false,"color":"green"}]}'
+    lore:
+    - '{"text":"","extra":[{"text":"虚无的力量掌握在你的手中","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+    PublicBukkitValues: |-
+      {
+          "slimefun:slimefun_item": "DFD_XUWUDING"
+      }

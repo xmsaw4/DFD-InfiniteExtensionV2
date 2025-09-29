@@ -1,0 +1,12 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3700
+  type: LANTERN
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"无尽机器核心","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+    PublicBukkitValues: |-
+      {
+          "slimefun:slimefun_item": "DFD_WJJQHXIN"
+      }

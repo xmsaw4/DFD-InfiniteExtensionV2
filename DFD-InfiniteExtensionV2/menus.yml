@@ -1,0 +1,544 @@
+DFD_WJXKWZZZJ:
+  title: '&dDFD&7&l虚空物质制造机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJTSQDGZJ:
+  title: '&dDFD&6&l特殊奇点&b&l构造机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJKPJQIDIAN:
+  title: '&dDFD&b&l无尽卡片机&7-&e&l奇点'
+  slots:
+    0-3:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    5-8:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7↓底下方放入无尽卡和奇点'
+    45-46:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    47:
+      material: Orange_Stained_Glass_Pane
+      name: '&e→放入材料和矿物后才可生产'
+    50:
+      material: Orange_Stained_Glass_Pane
+      name: '&e←放入材料和矿物后才可生产'
+    51-52:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+      
+DFD_WJKPJKUANGWU:
+  title: '&dDFD&b&l无尽卡片机&7-&6&l矿物'
+  slots:
+    0-3:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    5-8:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7↓底下方放入无尽卡和矿物'
+    45-46:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    47:
+      material: Orange_Stained_Glass_Pane
+      name: '&e→放入材料和矿物后才可生产'
+    50:
+      material: Orange_Stained_Glass_Pane
+      name: '&e←放入材料和矿物后才可生产'
+    51-52:
+      material: Yellow Stained Glass Pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2CHONGZU_I:
+  title: '&dDFD&b&l无尽V2重组机&7-&e&lI'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2CHONGZU_II:
+  title: '&dDFD&b&l无尽V2重组机&7-&e&lII'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+      
+DFD_WJV2CHONGZU_III:
+  title: '&dDFD&b&l无尽V2重组机&7-&e&lIII'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+      
+DFD_WJV2CHONGZU_WJBAN:
+  title: '&dDFD&b&l无尽V2重组机&7-&c&l无尽'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2WUJINDING_SHENGCHENGQI_I:
+  title: '&dDFD&b&l无尽V2&e&l无&6&l尽&b&l锭&f&l生成器&7-&bI'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2WUJINDING_SHENGCHENGQI_II:
+  title: '&dDFD&b&l无尽V2&e&l无&6&l尽&b&l锭&f&l生成器&7-&eII'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2WUJINDING_XKZWJ:
+  title: '&dDFD&b&l无尽V2&7&l虚空&b&l转&d&c无尽&b机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2WJMGYZJ:
+  title: '&dDFD&b&l无尽V2&a&l无&e&l尽&b&l玫&d&l瑰&b&l养殖机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2WJQDFUZHIJI:
+  title: '&dDFD&b&l无尽V2&a&l无&e&l尽&b&l玫&d&l瑰&b&l养殖机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+DFD_WJV2WJWPHECJ:
+  title: '&dDFD&b&l无尽V2&c&l无尽&b&l物品合成机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左边都是输入槽'
+      - '&7右边都是输出槽'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    22:
+      material: gray_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'
+    53:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+      
+DFD_WJV2_WUJINYITIJI:
+  title: '&dDFD&e&l无&6&l尽&b&l锭&c&l一体机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    5-8:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7下方都是输出槽'
+    45-52:
+      material: gray_stained_glass_pane
+      name: '&a'

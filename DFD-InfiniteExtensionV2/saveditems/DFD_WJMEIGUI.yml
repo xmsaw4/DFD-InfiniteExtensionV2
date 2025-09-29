@@ -1,0 +1,22 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3700
+  type: CORNFLOWER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"无","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false},{"text":"尽","italic":false,"color":"yellow"},{"text":"玫","italic":false,"color":"aqua"},{"text":"瑰","italic":false,"color":"light_purple"}]}'
+    enchants:
+      ARROW_INFINITE: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    PublicBukkitValues: |-
+      {
+          "slimefun:slimefun_item": "DFD_WJMEIGUI"
+      }

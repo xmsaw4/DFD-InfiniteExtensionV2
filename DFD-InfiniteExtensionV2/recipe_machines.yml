@@ -1,0 +1,3105 @@
+DFD_WJXKWZZZJ: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&8&l虚空物质制造机" #机器名称
+    lore: #介绍
+    - '&7能将虚空卡与虚空锭融合为虚空物质'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 1000 J/s'
+    material_type: mc #机器材质类型
+    material: Crying_Obsidian #机器材质
+  capacity: 100000 #机器存储电量
+  energyPerCraft: 500 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKK #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: VOID_QUARRY #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKK #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: VOID_HARVESTER #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: INFINITE_VOID_HARVESTER #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: VOID_HARVESTER #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKK #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: VOID_QUARRY #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKK #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJXKWZ:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJXKK
+          amount: 64
+        2:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJXKWZ
+          amount: 1
+        #可添加更多输出物品
+
+DFD_WJTSQDGZJ: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&6&l特殊奇点&b&l构造机" #机器名称
+    lore: #介绍
+    - '&7制造无尽特殊的奇点'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 5000 J/s'
+    material_type: mc #机器材质类型
+    material: Quartz_Pillar #机器材质
+  capacity: 100000 #机器存储电量
+  energyPerCraft: 2500 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_SINGULARITY #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_SINGULARITY #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_SINGULARITY #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: SINGULARITY_CONSTRUCTOR #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_CONSTRUCTOR #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: SINGULARITY_CONSTRUCTOR #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_SINGULARITY #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_SINGULARITY #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_SINGULARITY #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJXKQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJXKWZ
+          amount: 64
+        2:
+          material_type: slimefun
+          material: DFD_WJXKK
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_XKQD
+          amount: 1
+        #可添加更多输出物品
+    WJCJWJQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_CJWJQD
+          amount: 1
+        #可添加更多输出物品
+    WJWJXKQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJXKD
+          amount: 64
+        2:
+          material_type: slimefun
+          material: MAGNONIUM
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJXKQD
+          amount: 1
+        #可添加更多输出物品
+    WJDIANCQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJDCK
+          amount: 64
+        2:
+          material_type: slimefun
+          material: REDSTONE_ALLOY
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_DIANCQD
+          amount: 1
+        #可添加更多输出物品
+
+DFD_WJKPJQIDIAN: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽卡片机&7-&e&l奇点" #机器名称
+    lore: #介绍
+    - '&7能无限产超多奇点并且不消耗无尽卡'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 200000 J 可存储'
+    - '&8⇨ &e⚡&7 10000 J/s'
+    material_type: mc #机器材质类型
+    material: Smoker #机器材质
+  capacity: 200000 #机器存储电量
+  energyPerCraft: 5000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJKPJCAILIAO #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJKPJJHHX #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_CONSTRUCTOR #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+  input: [48,49] #输入格子
+  output: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJTONGQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COPPER_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COPPER_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJXINQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ZINC_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ZINC_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJXIQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: TIN_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: TIN_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJLVQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ALUMINUM_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ALUMINUM_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJYINQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: SILVER_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: SILVER_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJMEIQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGNESIUM_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGNESIUM_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJQIANQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LEAD_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LEAD_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJJINQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GOLD_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GOLD_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJTIEQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IRON_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IRON_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJZUANSHIQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: DIAMOND_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: DIAMOND_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJLVBAOSHIQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: EMERALD_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: EMERALD_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJXIAJIEHEJINQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: NETHERITE_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: NETHERITE_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJMEITANQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COAL_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COAL_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJHONGSHIQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: REDSTONE_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: REDSTONE_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJQINGJINSHIQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LAPIS_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LAPIS_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+    WJSHIYINGQD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: QUARTZ_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: QUARTZ_SINGULARITY
+          amount: 64
+        #可添加更多输出物品
+
+DFD_WJKPJKUANGWU: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽卡片机&7-&6&l矿物" #机器名称
+    lore: #介绍
+    - '&7能无限产超多基础锭和原版矿并且不消耗无尽卡'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 200000 J 可存储'
+    - '&8⇨ &e⚡&7 10000 J/s'
+    material_type: mc #机器材质类型
+    material: Blast Furnace #机器材质
+  capacity: 200000 #机器存储电量
+  energyPerCraft: 5000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: COMPRESSED_COBBLESTONE_5 #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJKPJCAILIAO #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: COMPRESSED_COBBLESTONE_5 #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: COMPRESSED_COBBLESTONE_5 #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJKPJJHHX #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: COMPRESSED_COBBLESTONE_5 #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: COMPRESSED_COBBLESTONE_5 #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_QUARRY #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: COMPRESSED_COBBLESTONE_5 #机器配方物品
+  input: [48,49] #输入格子
+  output: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 3 #机器运行速度
+  recipes: #输出的材料
+    WJTONGDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJXINDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 1
+          noConsume: true
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJXIDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJLVDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJYINDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJMEIDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJQIANDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJJINDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Gold Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Gold Ingot
+          amount: 64
+        #可添加更多输出物品
+    WJTIEDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Iron Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Iron Ingot
+          amount: 64
+        #可添加更多输出物品
+    WJZUANSHI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Diamond
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Diamond
+          amount: 64
+        #可添加更多输出物品
+    WJLVBAOSHI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Emerald
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Emerald
+          amount: 64
+        #可添加更多输出物品
+    WJXIAJIEHEJINDING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Netherite Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Netherite Ingot
+          amount: 64
+        #可添加更多输出物品
+    WJMEITAND:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Coal
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Coal
+          amount: 64
+        #可添加更多输出物品
+    WJHONGSHID:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Redstone
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Redstone
+          amount: 64
+        #可添加更多输出物品
+    WJQINGJINSHID:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Lapis Lazuli
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Lapis Lazuli
+          amount: 64
+        #可添加更多输出物品
+    WJSHIYINGD:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Quartz
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJK
+          amount: 1
+        2:
+          material_type: mc
+          material: Quartz
+          amount: 64
+        #可添加更多输出物品
+
+DFD_WJV2CHONGZU_I: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2重组机&7-&e&lI" #机器名称
+    lore: #介绍
+    - '&7能将某种物质重组为另一种物质'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 500000 J 可存储'
+    - '&8⇨ &e⚡&7 20000 J/s'
+    material_type: skull_base64 #机器材质类型
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5ZTc5OWRiNGM0Mjg5NGU1YzM4MWM1ZWRmYTFlZTUwODVlMDA1ZTNhZTNmNTgyYmE1N2IxYzNjMWYyNGVjYyJ9fX0= #机器材质
+  capacity: 500000 #机器存储电量
+  energyPerCraft: 10000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJTD #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_CZJDXH #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_CZJDXL #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJJIAOSHUI #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_CZK #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJWJCL #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKQD #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJYANJIANGGAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Magma_Cream
+          amount: 1
+        #可添加更多输出物品
+    WJTUZIJIAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Rabbit Hide
+          amount: 1
+        2:
+          material_type: mc
+          material: Rotten Flesh
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: rabbit_foot
+          amount: 1
+        #可添加更多输出物品
+    WJHUANYIMO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Feather
+          amount: 1
+        2:
+          material_type: mc
+          material: Cod
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: phantom_membrane
+          amount: 1
+        #可添加更多输出物品
+    WJKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Bone
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJHAIGUILINJIA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: stone_button
+          amount: 1
+        2:
+          material_type: mc
+          material: Kelp
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 1
+        #可添加更多输出物品
+    WJFENGMIPING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: sugar
+          amount: 5
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 1
+        #可添加更多输出物品
+    WJNIANYEQIU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Coal
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJKUWEIGUANMU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 30
+      input:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Oak Sapling
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Dead Bush
+          amount: 1
+        #可添加更多输出物品
+
+DFD_WJV2CHONGZU_II: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2重组机&7-&e&lII" #机器名称
+    lore: #介绍
+    - '&7能将某种物质重组为另一种物质'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 500000 J 可存储'
+    - '&8⇨ &e⚡&7 20000 J/s'
+    material_type: skull_base64 #机器材质类型
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1NjJjMzMxMjFjMTEzZDMzMzAwOTFjNDU3NGE2ZjZjOTE5MDI4ZmI5M2MyNDQwZjY2MmE3ZjFhMzZiNDRkOSJ9fX0= #机器材质
+  capacity: 500000 #机器存储电量
+  energyPerCraft: 10000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJWJCL #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJJIAOSHUI #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: ANCIENT_RUNE_ENCHANTMENT #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_CZK #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJV2CHONGZU_I #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJKPJCAILIAO #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: ADVANCED_NETHER_STAR_REACTOR #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: ADVANCED_GEO_MINER #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJYANJIANGGAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Magma_Cream
+          amount: 1
+        #可添加更多输出物品
+    WJTUZIJIAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Rabbit Hide
+          amount: 1
+        2:
+          material_type: mc
+          material: Rotten Flesh
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: rabbit_foot
+          amount: 2
+        #可添加更多输出物品
+    WJHUANYIMO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Feather
+          amount: 1
+        2:
+          material_type: mc
+          material: Cod
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: phantom_membrane
+          amount: 2
+        #可添加更多输出物品
+    WJKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Bone
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJHAIGUILINJIA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: stone_button
+          amount: 1
+        2:
+          material_type: mc
+          material: Kelp
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 2
+        #可添加更多输出物品
+    WJFENGMIPING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: sugar
+          amount: 5
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 1
+        #可添加更多输出物品
+    WJNIANYEQIU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Coal
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJKUWEIGUANMU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Oak Sapling
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Dead Bush
+          amount: 1
+        #可添加更多输出物品
+    WJQIANYINGKE:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 1
+        2:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Shulker Shell
+          amount: 1
+        #可添加更多输出物品
+    WJZISONGHUA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Chorus Fruit
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Chorus Plant
+          amount: 1
+        #可添加更多输出物品
+    WJZISONGZHIZHU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Chorus Plant
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Chorus Flower
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGMEIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Poppy
+          amount: 1
+        2:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Rose
+          amount: 1
+        #可添加更多输出物品
+    WJEHUNZHILEI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Water Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Iron Nugget
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Ghast Tear
+          amount: 1
+        #可添加更多输出物品
+    WJLIEYANBANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Stick
+          amount: 1
+        2:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Blaze Rod
+          amount: 1
+        #可添加更多输出物品
+    WJMOYINGXIANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Chest
+          amount: 1
+        2:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Ender Chest
+          amount: 1
+        #可添加更多输出物品
+
+DFD_WJV2CHONGZU_III: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2重组机&7-&e&lIII" #机器名称
+    lore: #介绍
+    - '&7能将某种物质重组为另一种物质'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 500000 J 可存储'
+    - '&8⇨ &e⚡&7 20000 J/s'
+    material_type: skull_base64 #机器材质类型
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg4ZTgzMDBkYjQ0NjQzYzEzMTIxMGNlYmQxMWM3ZjZmZWMzMTRmNGMyOGI0MmUzNzA1MTk3NDUxYjhjMjk0In19fQ== #机器材质
+  capacity: 500000 #机器存储电量
+  energyPerCraft: 10000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_COBBLE_GEN #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_VIRTUAL_FARM #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_DUST_EXTRACTOR #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_CZK #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJV2CHONGZU_II #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJTD #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_TREE_GROWER #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_INGOT_FORMER #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_QUARRY #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJYANJIANGGAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Magma_Cream
+          amount: 1
+        #可添加更多输出物品
+    WJTUZIJIAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Rabbit Hide
+          amount: 1
+        2:
+          material_type: mc
+          material: Rotten Flesh
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: rabbit_foot
+          amount: 3
+        #可添加更多输出物品
+    WJHUANYIMO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Feather
+          amount: 1
+        2:
+          material_type: mc
+          material: Cod
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: phantom_membrane
+          amount: 3
+        #可添加更多输出物品
+    WJKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Bone
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJHAIGUILINJIA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: stone_button
+          amount: 1
+        2:
+          material_type: mc
+          material: Kelp
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 3
+        #可添加更多输出物品
+    WJFENGMIPING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: sugar
+          amount: 5
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 1
+        #可添加更多输出物品
+    WJNIANYEQIU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 5
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Coal
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJKUWEIGUANMU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Oak Sapling
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Dead Bush
+          amount: 1
+        #可添加更多输出物品
+    WJQIANYINGKE:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 1
+        2:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Shulker Shell
+          amount: 1
+        #可添加更多输出物品
+    WJZISONGZHIZHU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Chorus Fruit
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Chorus Plant
+          amount: 1
+        #可添加更多输出物品
+    WJZISONGHUA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Chorus Plant
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Chorus Flower
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGMEIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Poppy
+          amount: 1
+        2:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Rose
+          amount: 1
+        #可添加更多输出物品
+    WJEHUNZHILEI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Water Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Iron Nugget
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Ghast Tear
+          amount: 1
+        #可添加更多输出物品
+    WJLIEYANBANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Stick
+          amount: 1
+        2:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Blaze Rod
+          amount: 1
+        #可添加更多输出物品
+    WJMOYINGXIANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Chest
+          amount: 1
+        2:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Ender Chest
+          amount: 1
+        #可添加更多输出物品
+    WJTNTZHADAN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Gunpowder
+          amount: 9
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: TNT
+          amount: 1
+        #可添加更多输出物品
+    WJMOYINGZHIYAN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: ender_eye
+          amount: 1
+        #可添加更多输出物品
+    WJXIAJIEYOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: wheat_seeds
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Nether Wart
+          amount: 1
+        #可添加更多输出物品
+    WJSHUBENBOOK:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: Paper
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: book
+          amount: 1
+        #可添加更多输出物品
+
+DFD_WJV2CHONGZU_WJBAN: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2重组机&7-&c&l无尽" #机器名称
+    lore: #介绍
+    - '&7能将某种物质重组为另一种物质'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 1000000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: skull_base64 #机器材质类型
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZjMjg2MjY3ZTgwMTE4Y2U0YzE5ZGE4MDYzOTEzN2NiMDNjZjhkMDcwNGYyYzYxOTM4OTMxN2UzODYxZDI5ZiJ9fX0= #机器材质
+  capacity: 1000000 #机器存储电量
+  energyPerCraft: 25000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJCHONGZK #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJV2CHONGZU_I #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJV2CHONGZU_II #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJV2CHONGZU_III #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJYANJIANGGAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Magma_Cream
+          amount: 1
+        #可添加更多输出物品
+    WJTUZIJIAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Rabbit Hide
+          amount: 1
+        2:
+          material_type: mc
+          material: Rotten Flesh
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: rabbit_foot
+          amount: 64
+        #可添加更多输出物品
+    WJHUANYIMO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Feather
+          amount: 1
+        2:
+          material_type: mc
+          material: Cod
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: phantom_membrane
+          amount: 64
+        #可添加更多输出物品
+    WJKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Bone
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJHAIGUILINJIA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: stone_button
+          amount: 64
+        2:
+          material_type: mc
+          material: Kelp
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 2
+        #可添加更多输出物品
+    WJFENGMIPING:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: sugar
+          amount: 5
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 1
+        #可添加更多输出物品
+    WJNIANYEQIU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Honey_Bottle
+          amount: 5
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Slime_ball
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGKULOUTOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Coal
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输出物品
+    WJKUWEIGUANMU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        2:
+          material_type: mc
+          material: Oak Sapling
+          amount: 64
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Dead Bush
+          amount: 1
+        #可添加更多输出物品
+    WJQIANYINGKE:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Scute
+          amount: 1
+        2:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Shulker Shell
+          amount: 1
+        #可添加更多输出物品
+    WJZISONGHUA:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Chorus Fruit
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Chorus Plant
+          amount: 1
+        #可添加更多输出物品
+    WJZISONGZHIZHU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Chorus Plant
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Chorus Flower
+          amount: 1
+        #可添加更多输出物品
+    WJDIAOLINGMEIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Poppy
+          amount: 1
+        2:
+          material_type: mc
+          material: Wither Skeleton Skull
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Wither Rose
+          amount: 1
+        #可添加更多输出物品
+    WJEHUNZHILEI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Water Bucket
+          amount: 1
+        2:
+          material_type: mc
+          material: Iron Nugget
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Ghast Tear
+          amount: 1
+        #可添加更多输出物品
+    WJLIEYANBANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Stick
+          amount: 1
+        2:
+          material_type: mc
+          material: Lava Bucket
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Blaze Rod
+          amount: 1
+        #可添加更多输出物品
+    WJMOYINGXIANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 20
+      input:
+        1:
+          material_type: mc
+          material: Chest
+          amount: 1
+        2:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Ender Chest
+          amount: 1
+        #可添加更多输出物品
+    WJTNTZHADAN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Gunpowder
+          amount: 9
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: TNT
+          amount: 1
+        #可添加更多输出物品
+    WJMOYINGZHIYAN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Ender Pearl
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: ender_eye
+          amount: 1
+        #可添加更多输出物品
+    WJXIAJIEYOU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: wheat_seeds
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: Nether Wart
+          amount: 1
+        #可添加更多输出物品
+    WJSHUBENBOOK:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Paper
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: mc
+          material: book
+          amount: 1
+        #可添加更多输出物品
+    WJWUJINMEIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 1
+        2:
+          material_type: mc
+          material: Wither Rose
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJMEIGUI
+          amount: 1
+        #可添加更多输出物品
+    WJXUKONGMEIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 1
+        2:
+          material_type: mc
+          material: Wither Rose
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_XKMEIGUI
+          amount: 1
+        #可添加更多输出物品
+        
+DFD_WJV2WUJINDING_SHENGCHENGQI_I: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2&e&l无&6&l尽&b&l锭&f&l生成器&7-&bI" #机器名称
+    lore: #介绍
+    - '&7能将原版矿物转化为两个无尽锭'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 500000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: mc #机器材质类型
+    material: Pearlescent_Froglight #机器材质
+  capacity: 500000 #机器存储电量
+  energyPerCraft: 25000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKQD #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJMEIGUI #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJYTHX #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKMEIGUI #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJTD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJTD #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJTIEDING_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Iron Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+        #可添加更多输出物品
+    WJJINDING_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Gold Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+        #可添加更多输出物品
+    WJQINGJINSHI_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Lapis Lazuli
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+        #可添加更多输出物品
+    WJZUANSHI_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Diamond
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+        #可添加更多输出物品
+    WJLVBAOSHI_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Emerald
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+        #可添加更多输出物品
+    WJXIAJIEHEJIN_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Netherite Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+        #可添加更多输出物品
+
+DFD_WJV2WUJINDING_SHENGCHENGQI_II: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2&e&l无&6&l尽&b&l锭&f&l生成器&7-&eII" #机器名称
+    lore: #介绍
+    - '&7能将原版矿物转化为一组无尽锭'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 2000000 J 可存储'
+    - '&8⇨ &e⚡&7 100000 J/s'
+    material_type: mc #机器材质类型
+    material: verdant_froglight #机器材质
+  capacity: 2000000 #机器存储电量
+  energyPerCraft: 50000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJMEIGUI #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJV2WUJINDING_SHENGCHENGQI_I #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKMEIGUI #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJTIEDING_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Iron Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJJINDING_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Gold Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJQINGJINSHI_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Lapis Lazuli
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJZUANSHI_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Diamond
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJLVBAOSHI_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Emerald
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+        #可添加更多输出物品
+    WJXIAJIEHEJIN_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: Netherite Ingot
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+        #可添加更多输出物品
+
+DFD_WJV2WUJINDING_XKZWJ: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2&7&l虚空&b&l转&d&c无尽&b机" #机器名称
+    lore: #介绍
+    - '&7能将四个虚空锭转化为十六个无尽锭'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 10000 J/s'
+    material_type: mc #机器材质类型
+    material: Chiseled Deepslate #机器材质
+  capacity: 100000 #机器存储电量
+  energyPerCraft: 5000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJTSQDGZJ #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJTD #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKQD #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_REACTOR #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: INFINITE_PANEL #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: INFINITE_VOID_HARVESTER #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_QUARRY #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJXUKONGDING_WUJIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 4
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 16
+        #可添加更多输出物品
+
+DFD_WJV2WJMGYZJ: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2&a&l无&e&l尽&b&l玫&d&l瑰&b&l养殖机" #机器名称
+    lore: #介绍
+    - '&7养殖无尽玫瑰与虚空玫瑰'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 1000000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: mc #机器材质类型
+    material: Beacon #机器材质
+  capacity: 1000000 #机器存储电量
+  energyPerCraft: 25000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJJIAOSHUI #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJJIAOSHUI #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJJIAOSHUI #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJMEIGUI #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJMEIGUIYL #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKMEIGUI #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKQD #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJWUJINMEIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 300
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_WJMEIGUI
+          amount: 1
+        2:
+          material_type: slimefun
+          material: DFD_WJMEIGUIYL
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_WJMEIGUI
+          amount: 2
+        #可添加更多输出物品
+    WJXUKONGIGUI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 300
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XKMEIGUI
+          amount: 1
+        2:
+          material_type: slimefun
+          material: DFD_WJMEIGUIYL
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: DFD_XKMEIGUI
+          amount: 2
+        #可添加更多输出物品
+
+DFD_WJV2WJQDFUZHIJI: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2&b&l无尽奇点复制机" #机器名称
+    lore: #介绍
+    - '&7该机器可将一个无尽奇点复制成两个'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 2000000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: mc #机器材质类型
+    material: warped_wart_block #机器材质
+  capacity: 2000000 #机器存储电量
+  energyPerCraft: 25000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJWJCL #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJJIAOSHUI #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJWJCL #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJK #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJKPJQIDIAN #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJK #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKQD #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_CJWJQD #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJXKQD #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJWUJINQIDIAN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 1
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 2
+        #可添加更多输出物品
+
+DFD_WJV2WJWPHECJ: #机器ID
+  item_group: DFD_WJV2JIQI #机器属组
+  item:
+    name: "&b&l无尽V2&c&l无尽&b&l物品合成机" #机器名称
+    lore: #介绍
+    - '&7自动制作无尽物品'
+    - ''
+    - '&b配方机器'
+    - '&8⇨ &e⚡&7 5000000 J 可存储'
+    - '&8⇨ &e⚡&7 100000 J/s'
+    material_type: mc #机器材质类型
+    material: Respawn_Anchor #机器材质
+  capacity: 5000000 #机器存储电量
+  energyPerCraft: 50000 #机器每粘液刻消耗的电量
+  recipe_type: ENHANCED_CRAFTING_TABLE #机器合成所需强化合成工作台
+  recipe: #机器配方
+    1:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJYTHX #机器配方物品
+    2:
+      material_type: slimefun #机器配方类型
+      material: DFD_XKMEIGUI #机器配方物品
+    3:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJYTHX #机器配方物品
+    4:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_REACTOR #机器配方物品
+    5:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJCHONGZK #机器配方物品
+    6:
+      material_type: slimefun #机器配方类型
+      material: INFINITY_REACTOR #机器配方物品
+    7:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJYTHX #机器配方物品
+    8:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJMEIGUI #机器配方物品
+    9:
+      material_type: slimefun #机器配方类型
+      material: DFD_WJYTHX #机器配方物品
+  input: [9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39] #输入格子
+  output: [14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44] #输出格子 注意核对机器菜单
+  hideAllRecipes: false #是否隐藏输入输出配方
+  speed: 1 #机器运行速度
+  recipes: #输出的材料
+    WJWUJINJINGGE:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 12
+        2:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 8
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_MACHINE_CIRCUIT
+          amount: 1
+        #可添加更多输出物品
+    WJWUJINJIXIEHEXIN:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MACHINE_CORE
+          amount: 8
+        2:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 12
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_MACHINE_CORE
+          amount: 1
+        #可添加更多输出物品
+    WJWUJINJIXUKONGSHOUJI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XUWUDING
+          amount: 2
+        2:
+          material_type: slimefun
+          material: VOID_HARVESTER
+          amount: 2
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_VOID_HARVESTER
+          amount: 1
+        #可添加更多输出物品
+    WJWUQIDIANGOUZAO:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XUWUDING
+          amount: 2
+        2:
+          material_type: slimefun
+          material: SINGULARITY_CONSTRUCTOR
+          amount: 4
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_CONSTRUCTOR
+          amount: 1
+        #可添加更多输出物品
+    WJWUQIDIANGOUZAOII:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 20
+        2:
+          material_type: slimefun
+          material: ADVANCED_COBBLE_GEN
+          amount: 16
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_CONSTRUCTOR
+          amount: 1
+        #可添加更多输出物品
+    WJWUZIDONGNONGCHANG:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XUWUDING
+          amount: 2
+        2:
+          material_type: slimefun
+          material: ADVANCED_VIRTUAL_FARM
+          amount: 2
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_VIRTUAL_FARM
+          amount: 1
+        #可添加更多输出物品
+    WJWUZIDONZHISHU:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XUWUDING
+          amount: 2
+        2:
+          material_type: slimefun
+          material: ADVANCED_TREE_GROWER
+          amount: 2
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_TREE_GROWER
+          amount: 1
+        #可添加更多输出物品
+    WJWUJINMOFENJI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XUWUDING
+          amount: 2
+        2:
+          material_type: slimefun
+          material: DUST_EXTRACTOR
+          amount: 2
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_DUST_EXTRACTOR
+          amount: 1
+        #可添加更多输出物品
+    WJWUKUANGJI:
+      chooseOne: false #当chooseOne: true时 选择output的其中一个进行输出 当chooseOne: false时（默认） 输出当前配方组的每个output的物品
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DFD_XUWUDING
+          amount: 2
+        2:
+          material_type: slimefun
+          material: VOID_QUARRY
+          amount: 2
+        #可添加更多输入物品
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_QUARRY
+          amount: 1
+        #可添加更多输出物品

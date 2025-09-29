@@ -1,0 +1,12 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3700
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"无尽玫瑰养料","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+    PublicBukkitValues: |-
+      {
+          "slimefun:slimefun_item": "DFD_WJMEIGUIYL"
+      }
