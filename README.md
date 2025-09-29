@@ -1,0 +1,2 @@
+# DFD-InfiniteExtensionV2
+DFD-InfiniteExtensionV2 是借鉴原 SlimeCustomizer的InfiniteExtensionV2 作者(HuoSJ) 通过RykenSlimeCustomizer插件重构的附属 作者：msaw4
